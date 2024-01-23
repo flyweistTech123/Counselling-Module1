@@ -1,0 +1,541 @@
+.home1{
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.home2{
+  width: 52%;
+  height: 40px;
+  border: 1px solid #353535;
+  display: flex;
+}
+
+.home4{
+  width: auto;
+  height: 40px;
+  border-right: 1px solid #353535;
+}
+
+.home4 p{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.41px;
+  color: #000000;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+}
+
+.home41{
+  width: auto;
+  height: 40px;
+  border-right: 1px solid #353535;
+  background: #004DFB;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+.home41 p{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.41px;
+  color: #FFFFFF;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+}
+.home42{
+  width: auto;
+  height: 40px;
+  border-right: 1px solid #353535;
+  background: #487EFA;
+}
+
+.home42 p{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.41px;
+  color: #FFFFFF;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+}
+
+
+.home43{
+  width: auto;
+  height: 40px;
+  border-right: 1px solid #353535;
+  border-right: none;
+}
+
+.home43 p{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.41px;
+  color: #000000;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+}
+
+
+.home5{
+  display: flex;
+  gap: 20px;
+}
+
+.home6{
+  width: auto;
+  height: 40px;
+  border: 1px solid #000000;
+}
+
+
+.home6 p{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.41px;
+  color: #000000;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+}
+
+
+.home7{
+  width: 95%;
+  margin: auto;
+  display: flex;
+  margin-top: 20px;
+<<<<<<< HEAD
+  gap: 10px;
+=======
+  gap: 20px;
+>>>>>>> origin/main
+}
+
+.home8{
+}
+
+.home9 button{
+  width: 162px;
+  height: 40px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  background: #3FB1B5;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.41px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.home10 {
+  width: 343px;
+  height: 66px;
+  border: 1px solid #D9D9D9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  padding: 5px;
+}
+
+.home11{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 20px;
+}
+
+
+
+.home11 h6{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18.75px;
+  color: #3FB1B5;
+}
+
+.home12{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 18.75px;
+  color: #3FB1B5;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+
+.home13{
+}
+
+
+.helpdesk-container {
+  width: 343px;
+  height: auto;
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); 
+  background: #FFFFFF;
+  margin-bottom: 20px;
+<<<<<<< HEAD
+=======
+  padding: 5px;
+>>>>>>> origin/main
+}
+
+.search1 {
+  width: 295px;
+  height: 45px;
+  border: 1px solid #353535;
+  border-radius: 4px;
+ margin-left: 10px;
+}
+
+
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  background-color: transparent;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000000;
+  margin-top: 10px;
+}
+
+.question span{
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+  line-height: 18.75px;
+}
+
+.open{
+  border: none;
+}
+
+
+
+.answer {
+  border-bottom: 0.6px solid #000000;
+  padding-bottom: 20px;
+}
+
+
+.answer label{
+  font-size: 15px;
+  font-weight: 500;
+  color: #000000;
+  padding-left: 8px;
+}
+
+
+.checkbox-container{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.home14{
+<<<<<<< HEAD
+  width: 100%;
+=======
+  width: 80%;
+  margin-left: auto;
+>>>>>>> origin/main
+}
+
+
+
+.home15{
+  margin-bottom: 30px;
+}
+
+
+.home15 button{
+  width: 143;
+  height: 40px;
+  background: #D9D9D9;
+  border: 1px solid #000000;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.41px;
+  color: #000000;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+
+.home16 p{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18.75px;
+  color: #000000;
+}
+
+.home18{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.home17{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.home17 p{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18.75px;
+  color: #000000;
+  text-align: center;
+}
+
+.home17 select{
+  width: 107px;
+  height: 28px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18.75px;
+  color: #000000;
+  text-align: center;
+}
+
+
+.home19{
+  display: flex;
+  align-items: center;
+  gap : 20px;
+}
+
+
+.home19 span{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18.75px;
+  color: #FE5244;
+}
+
+.home19 button{
+  width: 152px;
+  height: 40px;
+  border-radius: 4px;
+  background: #3FB1B5;
+  border: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.41px;
+  color: #FFFFFF;
+<<<<<<< HEAD
+  cursor: pointer;
+=======
+>>>>>>> origin/main
+}
+
+
+.home20{
+  width: 100%;
+  height: 149px;
+  background: #FFFFFF;
+  border: 1px solid #D9D9D9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+<<<<<<< HEAD
+  margin-top: 5px;
+  display: flex;
+=======
+  display: flex;
+  margin-top: 5px;
+>>>>>>> origin/main
+}
+
+.home21{
+  padding: 10px;
+}
+
+
+.home22{
+<<<<<<< HEAD
+  width: auto;
+=======
+  width: 164px;
+>>>>>>> origin/main
+  height: 28px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  background: #F4F4F4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home22 span{
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 16.41px;
+  color: #000000;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.home21 p{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.41px;
+  color: #407BFF;
+  padding-top: 20px;
+}
+
+
+.vertical-line {
+  height: 149px; 
+  border: none;
+  border-left: 1px solid black; 
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+
+.home23 {
+  width: 236px;
+  height: 44px;
+  border: 1px solid #D9D9D9;
+  display: flex;
+  background: #FFFFFF;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+
+.home24{
+  width: 94px;
+  height: 44px;
+  cursor: pointer;
+<<<<<<< HEAD
+  display: flex;
+  align-items: center;
+  justify-content: center;
+=======
+>>>>>>> origin/main
+}
+
+.home24 p{
+  font-weight: 500px;
+  font-size: 14px;
+  line-height: 16.41px;
+  color: #000000;
+  text-align: center;
+}
+
+
+.home25{
+  width: 48px;
+  height: 44px;
+  border: 1px solid #D9D9D9;
+  background: #407BFF;
+<<<<<<< HEAD
+  display: flex;
+  align-items: center;
+  justify-content: center;
+=======
+>>>>>>> origin/main
+}
+
+
+.home26{
+  display: flex;
+  justify-content: end;
+  margin-top: 20px;
+}
+
+.home25 p{
+  font-weight: 500px;
+  font-size: 14px;
+  line-height: 16.41px;
+  color: #FFFFFF;
+  text-align: center;
+<<<<<<< HEAD
+}
+
+
+.savemodal{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24.2px;
+  font-family: 'Inter', sans-serif; 
+  color: #000000;
+}
+
+
+.savemodal1 input{
+  width: 100%;
+  height: 45px;
+  background: #EDEDED;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+}
+
+.savemodal1 input::placeholder{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.36px;
+  font-family: 'Inter', sans-serif;
+  color: #000000;
+}
+
+.savemodal1 textarea{
+  width: 100%;
+  height: 149px;
+  background: transparent;
+  border: 1px solid #353535;
+  border-radius: 4px;
+  outline: none;
+  padding-left: 20px;
+  padding-top: 10px;
+  margin-top: 20px
+}
+.savemodal1 textarea::placeholder{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.36px;
+  font-family: 'Inter', sans-serif;
+  color: #000000;
+}
+.savemodal2{
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.savemodal2 button{
+  width: 76px;
+  height: 37px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  background: #FFFFFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.52px;
+=======
+>>>>>>> origin/main
+}
