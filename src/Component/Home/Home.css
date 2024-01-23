@@ -117,11 +117,8 @@
   margin: auto;
   display: flex;
   margin-top: 20px;
-<<<<<<< HEAD
   gap: 10px;
-=======
   gap: 20px;
->>>>>>> origin/main
 }
 
 .home8{
@@ -190,10 +187,7 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); 
   background: #FFFFFF;
   margin-bottom: 20px;
-<<<<<<< HEAD
-=======
   padding: 5px;
->>>>>>> origin/main
 }
 
 .search1 {
@@ -251,12 +245,9 @@
 }
 
 .home14{
-<<<<<<< HEAD
   width: 100%;
-=======
   width: 80%;
   margin-left: auto;
->>>>>>> origin/main
 }
 
 
@@ -343,10 +334,7 @@
   font-size: 14px;
   line-height: 16.41px;
   color: #FFFFFF;
-<<<<<<< HEAD
   cursor: pointer;
-=======
->>>>>>> origin/main
 }
 
 
@@ -356,13 +344,10 @@
   background: #FFFFFF;
   border: 1px solid #D9D9D9;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-<<<<<<< HEAD
   margin-top: 5px;
   display: flex;
-=======
   display: flex;
   margin-top: 5px;
->>>>>>> origin/main
 }
 
 .home21{
@@ -371,11 +356,7 @@
 
 
 .home22{
-<<<<<<< HEAD
   width: auto;
-=======
-  width: 164px;
->>>>>>> origin/main
   height: 28px;
   border: 1px solid #000000;
   border-radius: 4px;
@@ -427,12 +408,9 @@
   width: 94px;
   height: 44px;
   cursor: pointer;
-<<<<<<< HEAD
   display: flex;
   align-items: center;
   justify-content: center;
-=======
->>>>>>> origin/main
 }
 
 .home24 p{
@@ -449,12 +427,9 @@
   height: 44px;
   border: 1px solid #D9D9D9;
   background: #407BFF;
-<<<<<<< HEAD
   display: flex;
   align-items: center;
   justify-content: center;
-=======
->>>>>>> origin/main
 }
 
 
@@ -470,7 +445,6 @@
   line-height: 16.41px;
   color: #FFFFFF;
   text-align: center;
-<<<<<<< HEAD
 }
 
 
@@ -536,6 +510,4 @@
   font-size: 12px;
   font-weight: 400;
   line-height: 14.52px;
-=======
->>>>>>> origin/main
 }

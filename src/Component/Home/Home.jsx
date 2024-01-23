@@ -206,44 +206,32 @@ const Home = () => {
             id: 9,
             question: 'My filters',
             answers: [
-<<<<<<< HEAD
 
-=======
               
->>>>>>> origin/main
             ],
         },
         {
             id: 10,
             question: 'Callback Date',
             answers: [
-<<<<<<< HEAD
 
-=======
               
->>>>>>> origin/main
             ],
         },
         {
             id: 11,
             question: 'Form Filled Date',
             answers: [
-<<<<<<< HEAD
 
-=======
               
->>>>>>> origin/main
             ],
         },
         {
             id: 12,
             question: 'Taken Admission Date',
             answers: [
-<<<<<<< HEAD
 
-=======
               
->>>>>>> origin/main
             ],
         },
     ];
@@ -440,11 +428,7 @@ const Home = () => {
 
                         <div className='home19'>
                             <span>CLEAR ALL</span>
-<<<<<<< HEAD
                             <button onClick={() => setShow(true)}>Save Filter</button>
-=======
-                            <button>Save Filter</button>
->>>>>>> origin/main
                         </div>
                     </div>
 
