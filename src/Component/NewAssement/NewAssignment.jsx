@@ -1,18 +1,18 @@
 import React, { useState } from 'react'
-import './Home.css'
+import './NewAssignment.css'
 import Navbar from '../Navbar/Navbar'
 import { BsPersonFill } from "react-icons/bs";
 import { FaAngleDown } from "react-icons/fa";
 import { FaChevronRight } from "react-icons/fa";
 import { Modal } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
-import Popover from 'react-bootstrap/Popover';
-import Calendar from 'react-calendar';
-import 'react-calendar/dist/Calendar.css';
+import sort from '../../image/sort.png'
+import { IoIosSearch } from "react-icons/io";
 
 
-const Home = () => {
+
+
+const NewAssignment = () => {
     const [selectedQuestion, setSelectedQuestion] = useState(null);
     const questionsAndAnswers = [
         {
@@ -238,7 +238,115 @@ const Home = () => {
             ],
         },
     ];
-    const handleFilterClick = (id) => {
+    const data = [
+        {
+            "id": "1",
+            "Lead": "Lead",
+            "Name": "Name",
+            "Email": "Email",
+            "City": "City",
+            "Phone": 'Phone no.',
+            "LeadStatus": 'Lead Status',
+            "Source": 'Source',
+            "Callback": 'Callback',
+            "Addedon": "Added on",
+            "Edit": "Edit"
+        },
+        {
+            "id": "2",
+            "Lead": "Lead",
+            "Name": "Name",
+            "Email": "Email",
+            "City": "City",
+            "Phone": 'Phone no.',
+            "LeadStatus": 'Lead Status',
+            "Source": 'Source',
+            "Callback": 'Callback',
+            "Addedon": "Added on",
+            "Edit": "Edit"
+        },
+        {
+            "id": "3",
+            "Lead": "Lead",
+            "Name": "Name",
+            "Email": "Email",
+            "City": "City",
+            "Phone": 'Phone no.',
+            "LeadStatus": 'Lead Status',
+            "Source": 'Source',
+            "Callback": 'Callback',
+            "Addedon": "Added on",
+            "Edit": "Edit"
+        },
+        {
+            "id": "4",
+            "Lead": "Lead",
+            "Name": "Name",
+            "Email": "Email",
+            "City": "City",
+            "Phone": 'Phone no.',
+            "LeadStatus": 'Lead Status',
+            "Source": 'Source',
+            "Callback": 'Callback',
+            "Addedon": "Added on",
+            "Edit": "Edit"
+        },
+        {
+            "id": "5",
+            "Lead": "Lead",
+            "Name": "Name",
+            "Email": "Email",
+            "City": "City",
+            "Phone": 'Phone no.',
+            "LeadStatus": 'Lead Status',
+            "Source": 'Source',
+            "Callback": 'Callback',
+            "Addedon": "Added on",
+            "Edit": "Edit"
+        },
+        {
+            "id": "6",
+            "Lead": "Lead",
+            "Name": "Name",
+            "Email": "Email",
+            "City": "City",
+            "Phone": 'Phone no.',
+            "LeadStatus": 'Lead Status',
+            "Source": 'Source',
+            "Callback": 'Callback',
+            "Addedon": "Added on",
+            "Edit": "Edit"
+        },
+        {
+            "id": "7",
+            "Lead": "Lead",
+            "Name": "Name",
+            "Email": "Email",
+            "City": "City",
+            "Phone": 'Phone no.',
+            "LeadStatus": 'Lead Status',
+            "Source": 'Source',
+            "Callback": 'Callback',
+            "Addedon": "Added on",
+            "Edit": "Edit"
+        },
+        {
+            "id": "8",
+            "Lead": "Lead",
+            "Name": "Name",
+            "Email": "Email",
+            "City": "City",
+            "Phone": 'Phone no.',
+            "LeadStatus": 'Lead Status',
+            "Source": 'Source',
+            "Callback": 'Callback',
+            "Addedon": "Added on",
+            "Edit": "Edit"
+        },
+
+    ];
+
+    const handleQuestionClick = (id) => {
         setSelectedQuestion(id === selectedQuestion ? null : id);
     };
     const getArrowIcon = (id) => {
@@ -249,30 +357,47 @@ const Home = () => {
     };
     const [show, setShow] = useState(false);
 
-    function Save(props) {
+    const handleclick = () => {
+        setShowdata(true)
+        setShow(false)
+    }
+
+    function Sort(props) {
         console.log("Hello");
         return (
             <Modal
                 {...props}
-                size="md"
+                size="lg"
                 aria-labelledby="contained-modal-title-vcenter"
                 centered
-                backdrop={false}
-                style={{ top: '20%', left: '10%', }}
             >
                 <Modal.Header closeButton>
                     <Modal.Title id="contained-modal-title-vcenter">
-                        <h6 className='savemodal'>Save filter</h6>
+                        <h6 className='savemodal'>Sort Lead</h6>
                     </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <div className='savemodal1'>
-                        <input type="text" name="" id="" placeholder='File Name' />
-                        <textarea type="text" name="" id="" placeholder='File Description' />
+                    <div className='sort1'>
+                        <div className='sort2'>
+                            <label htmlFor="">Sort By:</label>
+                            <select name="" id="">
+                                <option value="">Lead By</option>
+                                <option value="">Lead On</option>
+                                <option value="">Name</option>
+                                <option value="">Added On</option>
+                            </select>
+                        </div>
+                        <div className='sort2'>
+                            <label htmlFor="">Type:</label>
+                            <select name="" id="">
+                                <option value="">Ascending</option>
+                                <option value="">Descending</option>
+                            </select>
+                        </div>
 
-                        <div className='savemodal2'>
-                            <button>Save</button>
-                            <button onClick={() => setShow(false)}>Cancel</button>
+                        <div className='addstudent3'>
+                            <button onClick={() => setShow(false)}>Close</button>
+                            <button onClick={() => handleclick()}>Apply</button>
                         </div>
                     </div>
                 </Modal.Body>
@@ -280,90 +405,37 @@ const Home = () => {
         );
     }
 
-    const [show1, setShow1] = useState(false);
 
-    function Discovery(props) {
-        console.log("Hello");
-        return (
-            <Modal
-                {...props}
-                size="md"
-                aria-labelledby="contained-modal-title-vcenter"
-                centered
-            >
-                <Modal.Body>
-                    <div className='discovery12'>
-                        <label htmlFor="">Please Enter Mobile Number</label>
-                        <input type="text" name="" id="" />
-                        <div className='discovery13'>
-                            <button>Save</button>
-                            <button onClick={() => setShow1(false)}>Cancel</button>
-                        </div>
-                    </div>
-                </Modal.Body>
-            </Modal >
-        );
-    }
-    const [value, onChange] = useState(new Date());
-    const popover = (
-        <Popover id="popover-basic"
-            style={{ border: 'none' }}
-        >
-            <Popover.Body className='datepicker1' >
-                <div>
-                    <div className='datepicker3'>
-                        <Calendar onChange={onChange} value={value} className="datepicker2" style={{border:'none'}} />
-                        <Calendar onChange={onChange} value={value} className="datepicker2" />
-                    </div>
-                    <div className='datepicker4'>
-                        <p>DD/MM/YYYY</p>
-                        <p>DD/MM/YYYY</p>
-                        <button>Close</button>
-                        <button>Apply</button>
-                    </div>
-                </div>
-            </Popover.Body>
-        </Popover>
-    );
+
+
+    const [showdata, setShowdata] = useState(false)
 
     return (
         <>
             <Navbar />
-            <div className='home1'>
-                <div className='home2'>
-                    <div className='home41'>
-                        <p>CSL</p>
+            <div className='assignment'>
+                <div className='assignment1'>
+                    <div className='assignment2'>
+                        <p>Search by name</p>
                     </div>
-                    <div className='home42'>
-                        <p>CLL</p>
+                    <div className='assignment2'>
+                        <p>Search by email</p>
                     </div>
-                    <div className='home4'>
-                        <p>ALL</p>
+                    <div className='assignment2'>
+                        <p>Search by Phone</p>
                     </div>
-                    <div className='home4'>
-                        <p>User Activity Leads</p>
+                    <div className='assignment2'>
+                        <p>Start Date</p>
                     </div>
-                    <div className='home4'>
-                        <p>Today’s Callback</p>
-                    </div>
-                    <div className='home4'>
-                        <p>Walk in Leads</p>
-                    </div>
-                    <div className='home43'>
-                        <p>Missed Callback</p>
+                    <div className='assignment2'>
+                        <p>End Date</p>
                     </div>
                 </div>
 
-                <div className='home5'>
-                    <div className='home6'>
-                        <p>Priority (0)</p>
-                    </div>
-                    <div className='home6'>
-                        <p>High Priority (0)</p>
-                    </div>
-                    <div className='home6'>
-                        <p>Very High Priority (0)</p>
-                    </div>
+                <div className='assignment3'>
+                    <button><IoIosSearch /> Search</button>
+                    <button onClick={() => setShow(true)}> <img src={sort} alt="" /> Sort</button>
+                    <button>Save filter</button>
                 </div>
             </div>
 
@@ -380,8 +452,6 @@ const Home = () => {
                         <FaAngleDown className='home12' />
                     </div>
 
-
-
                     <div className='home13'>
                         <div className='helpdesk-container'>
                             <div className='helpdeskquestion'>
@@ -389,27 +459,14 @@ const Home = () => {
                                     <div key={qa.id} className="faq-item">
                                         <div
                                             className={`question ${selectedQuestion === qa.id ? 'open' : ''}`}
-                                            onClick={() => handleFilterClick(qa.id)}
+                                            onClick={() => handleQuestionClick(qa.id)}
                                         >
                                             <span>{qa.question}</span>
                                             <div className="arrow-button">{getArrowIcon(qa.id)}</div>
                                         </div>
                                         {selectedQuestion === qa.id && (
                                             <div className="answer">
-                                                {qa.answers.length > 0 ? (
-                                                    <>
-                                                        <input type="search" name="" id="" className='search1' placeholder='Search' />
-                                                    </>
-                                                ) : ( 
-                                                    <OverlayTrigger trigger="click" placement="bottom" overlay={popover}>
-                                                        <div className='datepicker'>
-                                                            <span>DD/MM/YYYY</span>
-                                                            <span>-</span>
-                                                            <span>DD/MM/YYYY</span>
-                                                        </div>
-                                                    </OverlayTrigger>
-                                                )}
-
+                                                <input type="search" name="" id="" className='search1' placeholder='Search' />
                                                 {qa.answers.map((answer, index) => (
                                                     <div key={index} className="checkbox-container">
                                                         <input
@@ -431,106 +488,51 @@ const Home = () => {
                 </div>
 
 
-                <div className='home14'>
-                    <div className='home15'>
-                        <button onClick={() => setShow1(true)}>Discovery Tools</button>
+                <div className='assignment4'>
+                    <div className='assignment3'>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Lead</th>
+                                    <th>Name</th>
+                                    <th>Email</th>
+                                    <th>City</th>
+                                    <th>Phone no.</th>
+                                    <th>Lead Status</th>
+                                    <th>Source</th>
+                                    <th>Callback</th>
+                                    <th>Added on</th>
+                                    <th>Edit</th>
+                                </tr>
+                            </thead>
+                            {showdata ? (
+                                <tbody>
+                                    {data.map((item) => (
+                                        <tr key={item.id}>
+                                            <td>{item.Lead}</td>
+                                            <td>{item.Name}</td>
+                                            <td>{item.Email}</td>
+                                            <td>{item.City}</td>
+                                            <td>{item.Phone}</td>
+                                            <td>{item.LeadStatus}</td>
+                                            <td>{item.Source}</td>
+                                            <td>{item.Callback}</td>
+                                            <td>{item.Addedon}</td>
+                                            <td>{item.Edit}</td>
+                                        </tr>
+                                    ))}
+                                </tbody>
+                            ) : (
+                                " "
+                            )}
+
+                        </table>
                     </div>
-                    <div className='home16'>
-                        <p>Selected filters</p>
-                    </div>
-
-
-                    <div className='home18'>
-                        <div className='home17'>
-                            <p>Show</p>
-                            <select id="selectOption" name="selectOption">
-                                <option value="option1">10</option>
-                                <option value="option2">2</option>
-                                <option value="option3">3</option>
-                            </select>
-                            <p>Entries</p>
-                        </div>
-
-                        <div className='home19'>
-                            <span>CLEAR ALL</span>
-                            <button onClick={() => setShow(true)}>Save Filter</button>
-                        </div>
-                    </div>
-
-                    <div className='home20'>
-                        <div className='home21'>
-                            <div className='home22'>
-                                <span>Search</span>
-                                <span>Lead ID</span>
-                            </div>
-                            <p>21795343</p>
-                        </div>
-                        <div>
-                            <hr className="vertical-line" />
-                        </div>
-                        <div className='home21'>
-                            <div className='home22'>
-                                <span>Search Name</span>
-                            </div>
-                            <p>Manish chhipa</p>
-                        </div>
-                        <div>
-                            <hr className="vertical-line" />
-                        </div>
-                        <div className='home21'>
-                            <div className='home22'>
-                                <span>Search Phone Number</span>
-                            </div>
-                            <p>8978675645</p>
-                        </div>
-                        <div>
-                            <hr className="vertical-line" />
-                        </div>
-                        <div className='home21'>
-                            <div className='home22'>
-                                <span>Search Status</span>
-                            </div>
-                            <p>Verified</p>
-                        </div>
-                        <div>
-                            <hr className="vertical-line" />
-                        </div>
-                        <div className='home21'>
-                            <div className='home22'>
-                                <span>Search Lead Score</span>
-                            </div>
-                            <p>None</p>
-                        </div>
-                        <div>
-                            <hr className="vertical-line" />
-                        </div>
-                        <div className='home21'>
-                            <div className='home22'>
-                                <span>Search Call Back Time</span>
-                            </div>
-                            <p>2023-Jun-02 12:00 AM</p>
-                        </div>
-                    </div>
-
-
-                    <div className='home26'>
-                        <div className='home23'>
-                            <div className='home24'>
-                                <p>Previous</p>
-                            </div>
-                            <div className='home25'><p>1</p></div>
-                            <div className='home24'>
-                                <p>Next</p>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
             </div>
-            <Save show={show} onHide={() => setShow(false)} />
-            <Discovery show={show1} onHide={() => setShow1(false)} />
+            <Sort show={show} onHide={() => setShow(false)} />
         </>
     )
 }
 
-export default Home
+export default NewAssignment;

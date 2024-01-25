@@ -1,0 +1,136 @@
+.assignment {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.assignment1 {
+    display: flex;
+    gap: 5px;
+}
+
+.assignment2 {
+    width: 127px;
+    height: 33px;
+    border: 1px solid #D9D9D9;
+}
+
+.assignment2 p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: gray;
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+.assignment3 {
+    display: flex;
+    gap: 20px;
+}
+
+.assignment3 button:nth-child(1) {
+    width: 123px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    background: #2C8A00;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.assignment3 button {
+    width: 123px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    background: #407BFF;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+.assignment4 {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.assignment3 {}
+
+
+.assignment3 table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+
+.assignment3 table thead {
+    color: #000000;
+}
+
+.assignment3 table tr {
+    border: 0.5px solid grey;
+}
+
+.assignment3 table th {
+    padding: 20px;
+    border-right: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #000000;
+}
+
+.assignment3 table td {
+    padding: 20px;
+    border-right: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #000000;
+}
+
+
+
+.sort1 {}
+
+.sort2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sort2 label {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.75px;
+    color: #000000;
+}
+
+
+.sort2 select {
+    width: 497px;
+    height: 38px;
+    border: 1px solid #353535;
+    outline: none;
+    border-radius: 4px;
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+    color: #353535;
+}

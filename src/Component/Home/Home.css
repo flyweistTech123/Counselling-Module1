@@ -1,4 +1,4 @@
-.home1{
+.home1 {
   width: 95%;
   margin: auto;
   display: flex;
@@ -6,20 +6,20 @@
   margin-top: 20px;
 }
 
-.home2{
+.home2 {
   width: 52%;
   height: 40px;
   border: 1px solid #353535;
   display: flex;
 }
 
-.home4{
+.home4 {
   width: auto;
   height: 40px;
   border-right: 1px solid #353535;
 }
 
-.home4 p{
+.home4 p {
   font-weight: 400;
   font-size: 14px;
   line-height: 16.41px;
@@ -30,7 +30,7 @@
   padding-top: 8px;
 }
 
-.home41{
+.home41 {
   width: auto;
   height: 40px;
   border-right: 1px solid #353535;
@@ -40,7 +40,7 @@
 }
 
 
-.home41 p{
+.home41 p {
   font-weight: 400;
   font-size: 14px;
   line-height: 16.41px;
@@ -50,14 +50,15 @@
   padding-right: 10px;
   padding-top: 8px;
 }
-.home42{
+
+.home42 {
   width: auto;
   height: 40px;
   border-right: 1px solid #353535;
   background: #487EFA;
 }
 
-.home42 p{
+.home42 p {
   font-weight: 400;
   font-size: 14px;
   line-height: 16.41px;
@@ -69,14 +70,14 @@
 }
 
 
-.home43{
+.home43 {
   width: auto;
   height: 40px;
   border-right: 1px solid #353535;
   border-right: none;
 }
 
-.home43 p{
+.home43 p {
   font-weight: 400;
   font-size: 14px;
   line-height: 16.41px;
@@ -88,19 +89,19 @@
 }
 
 
-.home5{
+.home5 {
   display: flex;
   gap: 20px;
 }
 
-.home6{
+.home6 {
   width: auto;
   height: 40px;
   border: 1px solid #000000;
 }
 
 
-.home6 p{
+.home6 p {
   font-weight: 400;
   font-size: 14px;
   line-height: 16.41px;
@@ -112,7 +113,7 @@
 }
 
 
-.home7{
+.home7 {
   width: 95%;
   margin: auto;
   display: flex;
@@ -121,10 +122,9 @@
   gap: 20px;
 }
 
-.home8{
-}
+.home8 {}
 
-.home9 button{
+.home9 button {
   width: 162px;
   height: 40px;
   border-radius: 4px;
@@ -146,11 +146,11 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 5px;
 }
 
-.home11{
+.home11 {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -159,14 +159,14 @@
 
 
 
-.home11 h6{
+.home11 h6 {
   font-weight: 600;
   font-size: 16px;
   line-height: 18.75px;
   color: #3FB1B5;
 }
 
-.home12{
+.home12 {
   font-weight: 500;
   font-size: 20px;
   line-height: 18.75px;
@@ -176,15 +176,14 @@
 }
 
 
-.home13{
-}
+.home13 {}
 
 
 .helpdesk-container {
   width: 343px;
   height: auto;
   margin-top: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   background: #FFFFFF;
   margin-bottom: 20px;
   padding: 5px;
@@ -195,7 +194,15 @@
   height: 45px;
   border: 1px solid #353535;
   border-radius: 4px;
- margin-left: 10px;
+  margin-left: 10px;
+  outline: none;
+  padding-left: 10px;
+}
+
+.search1::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18.75px;
 }
 
 
@@ -212,14 +219,14 @@
   margin-top: 10px;
 }
 
-.question span{
+.question span {
   font-size: 16px;
   font-weight: 600;
   color: #000000;
   line-height: 18.75px;
 }
 
-.open{
+.open {
   border: none;
 }
 
@@ -231,7 +238,7 @@
 }
 
 
-.answer label{
+.answer label {
   font-size: 15px;
   font-weight: 500;
   color: #000000;
@@ -239,12 +246,12 @@
 }
 
 
-.checkbox-container{
+.checkbox-container {
   margin-top: 10px;
   margin-left: 10px;
 }
 
-.home14{
+.home14 {
   width: 100%;
   width: 80%;
   margin-left: auto;
@@ -252,12 +259,12 @@
 
 
 
-.home15{
+.home15 {
   margin-bottom: 30px;
 }
 
 
-.home15 button{
+.home15 button {
   width: 143;
   height: 40px;
   background: #D9D9D9;
@@ -272,26 +279,26 @@
 
 
 
-.home16 p{
+.home16 p {
   font-weight: 600;
   font-size: 16px;
   line-height: 18.75px;
   color: #000000;
 }
 
-.home18{
+.home18 {
   display: flex;
   justify-content: space-between;
 }
 
 
-.home17{
+.home17 {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-.home17 p{
+.home17 p {
   font-weight: 600;
   font-size: 16px;
   line-height: 18.75px;
@@ -299,7 +306,7 @@
   text-align: center;
 }
 
-.home17 select{
+.home17 select {
   width: 107px;
   height: 28px;
   font-weight: 600;
@@ -310,21 +317,21 @@
 }
 
 
-.home19{
+.home19 {
   display: flex;
   align-items: center;
-  gap : 20px;
+  gap: 20px;
 }
 
 
-.home19 span{
+.home19 span {
   font-weight: 400;
   font-size: 16px;
   line-height: 18.75px;
   color: #FE5244;
 }
 
-.home19 button{
+.home19 button {
   width: 152px;
   height: 40px;
   border-radius: 4px;
@@ -338,24 +345,24 @@
 }
 
 
-.home20{
+.home20 {
   width: 100%;
   height: 149px;
   background: #FFFFFF;
   border: 1px solid #D9D9D9;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin-top: 5px;
   display: flex;
   display: flex;
   margin-top: 5px;
 }
 
-.home21{
+.home21 {
   padding: 10px;
 }
 
 
-.home22{
+.home22 {
   width: auto;
   height: 28px;
   border: 1px solid #000000;
@@ -366,7 +373,7 @@
   justify-content: space-between;
 }
 
-.home22 span{
+.home22 span {
   font-weight: 500;
   font-size: 15px;
   line-height: 16.41px;
@@ -375,7 +382,7 @@
   padding-right: 5px;
 }
 
-.home21 p{
+.home21 p {
   font-weight: 400;
   font-size: 14px;
   line-height: 16.41px;
@@ -385,9 +392,9 @@
 
 
 .vertical-line {
-  height: 149px; 
+  height: 149px;
   border: none;
-  border-left: 1px solid black; 
+  border-left: 1px solid black;
   margin: 0;
   padding: 0;
   display: inline-block;
@@ -400,11 +407,11 @@
   border: 1px solid #D9D9D9;
   display: flex;
   background: #FFFFFF;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 
-.home24{
+.home24 {
   width: 94px;
   height: 44px;
   cursor: pointer;
@@ -413,7 +420,7 @@
   justify-content: center;
 }
 
-.home24 p{
+.home24 p {
   font-weight: 500px;
   font-size: 14px;
   line-height: 16.41px;
@@ -422,7 +429,7 @@
 }
 
 
-.home25{
+.home25 {
   width: 48px;
   height: 44px;
   border: 1px solid #D9D9D9;
@@ -433,13 +440,13 @@
 }
 
 
-.home26{
+.home26 {
   display: flex;
   justify-content: end;
   margin-top: 20px;
 }
 
-.home25 p{
+.home25 p {
   font-weight: 500px;
   font-size: 14px;
   line-height: 16.41px;
@@ -448,16 +455,16 @@
 }
 
 
-.savemodal{
+.savemodal {
   font-weight: 700;
   font-size: 20px;
   line-height: 24.2px;
-  font-family: 'Inter', sans-serif; 
+  font-family: 'Inter', sans-serif;
   color: #000000;
 }
 
 
-.savemodal1 input{
+.savemodal1 input {
   width: 100%;
   height: 45px;
   background: #EDEDED;
@@ -466,7 +473,7 @@
   padding-left: 20px;
 }
 
-.savemodal1 input::placeholder{
+.savemodal1 input::placeholder {
   font-weight: 500;
   font-size: 16px;
   line-height: 19.36px;
@@ -474,7 +481,7 @@
   color: #000000;
 }
 
-.savemodal1 textarea{
+.savemodal1 textarea {
   width: 100%;
   height: 149px;
   background: transparent;
@@ -485,14 +492,16 @@
   padding-top: 10px;
   margin-top: 20px
 }
-.savemodal1 textarea::placeholder{
+
+.savemodal1 textarea::placeholder {
   font-weight: 400;
   font-size: 16px;
   line-height: 19.36px;
   font-family: 'Inter', sans-serif;
   color: #000000;
 }
-.savemodal2{
+
+.savemodal2 {
   display: flex;
   justify-content: end;
   gap: 10px;
@@ -500,7 +509,7 @@
   margin-bottom: 10px;
 }
 
-.savemodal2 button{
+.savemodal2 button {
   width: 76px;
   height: 37px;
   border: 1px solid #000000;
@@ -510,4 +519,155 @@
   font-size: 12px;
   font-weight: 400;
   line-height: 14.52px;
+}
+
+
+.discovery12 {}
+
+
+.discovery12 input {
+  width: 100%;
+  height: 48px;
+  background: #FFFFFF;
+  border: 1px solid #407BFF;
+  outline: none;
+  padding-left: 20px;
+}
+
+
+.discovery12 label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18.75px;
+  color: #407BFF;
+}
+
+
+.discovery13 {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+.discovery13 button:nth-child(1) {
+  width: 118px;
+  height: 43px;
+  border: none;
+  border-radius: 4px;
+  background: #407BFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  color: #FFFFFF;
+}
+
+
+.discovery13 button:nth-child(2) {
+  width: 118px;
+  height: 43px;
+  border-radius: 4px;
+  background: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  color: #407BFF;
+  border: 1px solid #407BFF;
+}
+
+
+
+
+.datepicker{
+  width: 295px;
+  height: 53px;
+  margin: auto;
+  border: 1px solid #D9D9D9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  cursor: pointer;
+}
+
+
+.datepicker span{
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 16.41px;
+  color: #000000;
+}
+
+.datepicker1{
+  width: 692px;
+  height: auto;
+  background: #FFFFFF;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  /* padding: 20px; */
+  margin-bottom: 50px;
+}
+
+.datepicker2{
+  font-weight: 600;
+  line-height: 37.5px;
+  color: #000000;
+}
+
+.datepicker3{
+  display: flex;
+  gap: 20px;
+}
+
+
+.datepicker4 {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.datepicker4 p{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.41px;
+  color: #000000;
+}
+
+
+.datepicker4 button:nth-child(3) {
+  width: 109px;
+  height: 43px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  background: #FFFFFF;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  color: #000000;
+}
+
+
+
+
+.datepicker4 button:nth-child(4) {
+  width: 109px;
+  height: 43px;
+  border: none;
+  border-radius: 4px;
+  background: #407BFF;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  color: #FFFFFF;
+}
+
+.custom-year-tile {
+  font-size: 25px; /* Adjust the font size as needed */
 }
