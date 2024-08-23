@@ -1,0 +1,34 @@
+.Search-container{
+    color: #3FB1B5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.Search-container p {
+    font-size: 30px;
+}
+
+.search_input {
+    width: 90%;
+    margin: auto;
+    height: 20px;
+}
+
+.search_input input{
+    width: 100%;
+    padding: 5px 10px;
+}
+
+.Search_footer{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.Search_footer Button {
+    background-color: #FE5244;
+}

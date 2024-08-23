@@ -15,15 +15,12 @@ import { MdLogout } from "react-icons/md";
 import { useNavigate } from 'react-router-dom';
 
 
-
-
-
-
 const Navbar = () => {
     const [show, setShow] = useState(false);
     const navigate = useNavigate()
+    
     function Logout(props) {
-        console.log("Hello");
+      
         return (
             <Modal
                 {...props}
@@ -85,13 +82,14 @@ const Navbar = () => {
             </Modal >
         );
     }
+
     return (
         <>
             <div className='navbar'>
                 <div className='logo-container'>
                     <img src={logo} alt='Logo' className='logo' />
                 </div>
-                <div className='nav-links'>
+                <div className='nav-links '>
                     <div className='navbar1'>
                         <p onClick={()=>navigate('/home')}> <AiFillHome className='navbar3' /> Home</p>
                         <p href=''> <IoIosChatbubbles className='navbar3' /> Chat</p>

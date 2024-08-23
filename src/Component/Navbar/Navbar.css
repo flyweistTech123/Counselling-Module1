@@ -4,7 +4,7 @@
 
 .navbar {
   width: 100%;
-  height: 120px;
+  height: auto;
   background: #004DFB;
   padding: 10px;
 }
@@ -13,8 +13,6 @@
 .logo-container {
   margin-left: 20px;
 }
-
-
 
 
 .logo {
@@ -29,6 +27,7 @@
   justify-content: space-between;
   align-items: center;
   width: 75%;
+  flex-wrap: wrap;
   margin-right: 20px;
 }
 
@@ -121,4 +120,29 @@
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+
+  .navbar {
+    width: 100%;
+    height: auto;
+    background: #004DFB;
+    padding: 10px;
+  }
+
+  .nav-links {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .navbar1 {
+    padding: 10px;
+    display: block;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+  }
 }

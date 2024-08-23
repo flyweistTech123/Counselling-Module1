@@ -51,7 +51,7 @@ export const Search = () => {
   const [show, setShow] = useState(false);
   const navigate = useNavigate()
   function ADDstudent(props) {
-    console.log("Hello");
+ 
     return (
       <Modal
         {...props}
@@ -129,7 +129,7 @@ export const Search = () => {
   const [show1, setShow1] = useState(false);
 
   function Lead(props) {
-    console.log("Hello");
+
     return (
       <Modal
         {...props}
@@ -179,7 +179,7 @@ export const Search = () => {
   const [show2, setShow2] = useState(false);
 
   function Callback(props) {
-    console.log("Hello");
+
     return (
       <Modal
         {...props}

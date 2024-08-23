@@ -6,11 +6,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import sort from '../../image/sort.png'
 import { IoIosSearch } from "react-icons/io";
 import Sidebar from '../Sidebar/Sidebar';
-
+import { useNavigate } from 'react-router-dom';
 
 
 
 const NewAssignment = () => {
+    const navigate=useNavigate();
+
     const data = [
         {
             "id": "1",
@@ -128,7 +130,7 @@ const NewAssignment = () => {
     }
 
     function Sort(props) {
-        console.log("Hello");
+        
         return (
             <Modal
                 {...props}
@@ -226,7 +228,7 @@ const NewAssignment = () => {
                             {showdata ? (
                                 <tbody>
                                     {data.map((item) => (
-                                        <tr key={item.id}>
+                                        <tr key={item.id} >
                                             <td>{item.Lead}</td>
                                             <td>{item.Name}</td>
                                             <td>{item.Email}</td>
@@ -236,7 +238,7 @@ const NewAssignment = () => {
                                             <td>{item.Source}</td>
                                             <td>{item.Callback}</td>
                                             <td>{item.Addedon}</td>
-                                            <td>{item.Edit}</td>
+                                            <td onClick={()=>navigate("/conversationActivity")} style={{cursor:"pointer"}}>{item.Edit}</td>
                                         </tr>
                                     ))}
                                 </tbody>

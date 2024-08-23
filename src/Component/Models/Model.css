@@ -1,0 +1,142 @@
+.cifModel-container {
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.cifModel-container>div {
+    margin-top: 1rem;
+}
+
+.cifModel-container .backColor {
+    width: 80%;
+    background-color: #F89797;
+    padding: 10px 10px;
+    border-radius: 4px;
+    color: white;
+}
+
+
+.cif-footer {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    border-top: 1px solid black;
+}
+
+.cif-footer Button {
+    margin-top: 1rem;
+}
+
+.cif-footer-button {
+    background-color: #F89797;
+    border: none;
+}
+
+.cifModel-container .cif-search {
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.cif-search input {
+    width: 80%;
+    padding: 5px 10px;
+    border-radius: 4px;
+    outline: none;
+}
+
+.cif-search button {
+    border: none;
+    background-color: #F89797;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+/* getlink model */
+.select-library{
+    width: 100%;
+}
+
+.cif-search .back-blue {
+    border: none;
+    background-color: #3FB1B5;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: white;
+}
+
+/* update status */
+.updateStatus-container{
+    width: 100%;
+    gap: 2rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.updateStatus-container > div {
+    width: 50%;
+}
+
+.updateStatus-container > div > div {
+    width: 100%;
+    margin-top: 0.5rem;
+} 
+
+.updateStatus-container > div > div > select,
+.updateStatus-container > div > div > input,
+.updateStatus-container > div > div > div {
+    width: 100%;
+}
+
+/* maessage cloud */
+.message-container{
+    margin-top: 1rem;
+    width: 90%;
+    margin: auto;
+}
+
+.message-container select{
+    width: 100%;
+    padding: 5px 10px;
+}
+
+.message-container > p {
+    margin: 0;
+    margin-top: 1rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.message-container > div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.message-container > div >div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+
+ .message-container select optgroup {
+    font-weight: bold;
+    padding: 5px 10px;
+ }
+
+ @media screen and (max-width:480px) {
+    .message-container > div{
+       display: block;
+    }
+
+    .message-container > div > div{
+        margin-top: 10px;
+     }
+ }

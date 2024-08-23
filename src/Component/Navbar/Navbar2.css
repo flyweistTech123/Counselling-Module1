@@ -1,0 +1,185 @@
+* {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .navbarUpdate {
+    width: 100%;
+    height: auto;
+    background: #00A7B1;
+  }
+  
+  .navbarUpdate-child{
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+  .logo-update {
+    max-width: 100px;
+    max-height: 100px; 
+    width: auto; 
+    height: auto;
+    background-color: #00A7B1;
+  }
+
+  .header_list_left{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .select-style{
+    border: none;
+    outline: none;
+    background-color: #00A7B1;
+    color: #ffffff;
+    width: 225px;
+  }
+
+  .header-list{
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    overflow: hidden; 
+  }
+
+  .header-list li {
+    float: left; 
+  
+  }
+  
+  .header-list li img {
+    display: block; /* Make the links block-level elements */
+    color: white;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    cursor: pointer;
+
+  }
+
+  .header_left_side_content{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .button_header_style{
+    border: none;
+    outline: none;
+    background-color: #FE5244;
+    padding: 8px 30px;
+    border-radius: 5px;
+  }
+
+  .navbarUpdate-bottom{
+    width: 90%;
+    margin: auto;
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .select-style-second{
+    border: none;
+    outline: none;
+    background-color: #007C84;
+    color: #ffffff;
+    width: 225px;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+
+  .select-style-second  option {
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+  }
+
+
+  .header-list li p {
+    display: block; 
+    color: white;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+  .nav_bar_color {
+    position: relative; 
+    color: white;
+  }
+
+  .nav_bar_color::after {
+    content: ""; 
+    position: absolute; /* Make the position absolute */
+    bottom: 0; /* Set it to the bottom */
+    left: 0; /* Align it to the left */
+    width: 100%; /* Full width */
+    height: 0.5px; /* Border height */
+    margin: 0;
+    background-color: white; /* Border color */
+    text-decoration: underline;
+  }
+
+  
+ /* Responsive styles for screens less than or equal to 768px (tablet) */
+@media screen and (max-width: 768px) {
+  .navbarUpdate-child{
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+    display: block;
+    justify-content: unset;
+    text-align: center;
+  }
+
+  .header_list_left{
+    display: block;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .header_left_side_content{
+    display: block;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+  }
+
+
+  .navbarUpdate-bottom{
+    width: 90%;
+    margin: auto;
+    padding-top: 5px;
+    display: block;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .select-style-second  option {
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    display: black;
+  }
+
+  .select-style-second {
+    margin-top: 1rem;
+}
+.logo-update{
+    width: 200px; 
+    height: 200px;
+    background-color: #00A7B1;
+}
+
+}
+
